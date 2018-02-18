@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FF65"
+    tools:context="com.tashfia.myfavouritewebsite.MainActivity">
+
+    <Button
+        android:id="@+id/btn_techtunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#010502"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Techtunes" />
+
+    <Button
+        android:id="@+id/btn_sikkhok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_techtunes"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#010502"
+        android:layout_marginTop="59dp"
+        android:text="Shikkhok.com" />
+
+    <Button
+        android:id="@+id/btn_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_sikkhok"
+        android:textColor="#010502"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="53dp"
+        android:text="You Tube" />
+
+    <Button
+        android:id="@+id/btn_webcoachbd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_techtunes"
+        android:layout_alignRight="@+id/btn_techtunes"
+        android:layout_below="@+id/btn_youtube"
+        android:textColor="#010502"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="48dp"
+        android:text="Webcoach Bd" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_webcoachbd"
+        android:textColor="#010502"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/btn_webcoachbd"
+        android:layout_marginBottom="35dp"
+        android:text="Facebook" />
+</RelativeLayout>
